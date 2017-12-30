@@ -1,0 +1,23 @@
+{
+  "Type": "Notification",
+  "MessageId": "7d23148d-720f-5cf8-8cf6-463fcb2b322f",
+  "TopicArn": "arn:aws:sns:us-west-2:888888884444:he-data-queue",
+  "Message": [
+    {
+      "eventName": "something-happened",
+      "originator": "121212aceace:8080",
+      "tenant": "somebody",
+      "versions": [
+        "1.0"
+      ],
+      "timestamp": "2017-12-19T06:55:31.895Z",
+      "guid": "i1234567890-1234567890-1234567890",
+      "a_id": 15939,
+      "properties": {},
+      "metadata": {}
+    }
+  ],
+  "Timestamp": "2017-12-19T06:55:32.540Z",
+  "SignatureVersion": "1",
+  "Signature": "aG0sIGN1cmlvcz8gdGhhdCdzIG9uZSBzb25nIHRoYXQgSSBsaWtlIFNhaS4uLg0KY2VydGUgdm9sdGUgYWNjYWRlIGNoZQ0KY2kgc2lhIGJpc29nbm8gZGkgYW5kYXIgdmlhDQplIGxhc2NpYXJlIHR1dHRvIGFsIGZhdG8sDQpGYXJlIGNvbWUgdW4gZXF1aWxpYnJpc3RhLA0KY2hlIHN1bCBtb25kbw0Kc2ZpZGEgaWwgY3JvbGxvIGRlbGxlIHN1ZSBjYXBhY2l0w6A="
+}

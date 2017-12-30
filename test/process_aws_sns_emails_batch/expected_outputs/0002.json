@@ -1,0 +1,8 @@
+{
+  "Type": "Notification",
+  "MessageId": "70676be4-b50e-5e37-b38b-3956082407e0",
+  "TopicArn": "arn:aws:sns:us-west-2:888888884444:he-data-queue",
+  "Timestamp": "2017-12-19T06:55:38.539Z",
+  "SignatureVersion": "1",
+  "Signature": "aG0sIGN1cmlvcz8gdGhhdCdzIG9uZSBzb25nIHRoYXQgSSBsaWtlIFNhaS4uLg0KY2VydGUgdm9sdGUgYWNjYWRlIGNoZQ0KY2kgc2lhIGJpc29nbm8gZGkgYW5kYXIgdmlhDQplIGxhc2NpYXJlIHR1dHRvIGFsIGZhdG8sDQpGYXJlIGNvbWUgdW4gZXF1aWxpYnJpc3RhLA0KY2hlIHN1bCBtb25kbw0Kc2ZpZGEgaWwgY3JvbGxvIGRlbGxlIHN1ZSBjYXBhY2l0w6A="
+}

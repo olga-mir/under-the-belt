@@ -1,0 +1,58 @@
+{
+  "Type": "Notification",
+  "MessageId": "5ace2ebb-8ebe-55f2-ba31-750b34962425",
+  "TopicArn": "arn:aws:sns:us-west-2:888888884444:he-data-queue",
+  "Message": [
+    {
+      "eventName": "something-happened",
+      "originator": "121212aceace:8080",
+      "tenant": "same-somebody",
+      "versions": [
+        "1.0"
+      ],
+      "timestamp": "2017-12-19T06:55:30.826Z",
+      "guid": "1234567890-1234567890-1234567890",
+      "u_id": 12339,
+      "properties": {},
+      "metadata": {
+        "title": {
+          "en_US": "Episode 8"
+        },
+        "production-year": {
+          "*": "2012"
+        },
+        "genre": {
+          "*": "Kids"
+        },
+        "episode": {
+          "*": "8"
+        },
+        "studio": {
+          "*": "Name"
+        },
+        "series-name": {
+          "en_US": "Run Forrest, Run!"
+        },
+        "sub-genre": {
+          "*": "Animation"
+        }
+      }
+    },
+    {
+      "eventName": "and-something-else",
+      "originator": "888888883441:8080",
+      "tenant": "somebody",
+      "versions": [
+        "1.0"
+      ],
+      "timestamp": "2017-12-19T06:55:30.433Z",
+      "guid": "1234567890-1234567890-1234567890",
+      "a_id": 11159,
+      "properties": {},
+      "metadata": {}
+    }
+  ],
+  "Timestamp": "2017-12-19T06:55:36.550Z",
+  "SignatureVersion": "1",
+  "Signature": "aG0sIGN1cmlvcz8gdGhhdCdzIG9uZSBzb25nIHRoYXQgSSBsaWtlIFNhaS4uLg0KY2VydGUgdm9sdGUgYWNjYWRlIGNoZQ0KY2kgc2lhIGJpc29nbm8gZGkgYW5kYXIgdmlhDQplIGxhc2NpYXJlIHR1dHRvIGFsIGZhdG8sDQpGYXJlIGNvbWUgdW4gZXF1aWxpYnJpc3RhLA0KY2hlIHN1bCBtb25kbw0Kc2ZpZGEgaWwgY3JvbGxvIGRlbGxlIHN1ZSBjYXBhY2l0w6A="
+}

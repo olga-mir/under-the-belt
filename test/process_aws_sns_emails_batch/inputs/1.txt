@@ -1,0 +1,37 @@
+YOUR COMPANY.COM Mail  Olga Mirensky <olga.mirensky@atyourcompany.com>
+AWS Notification Message
+100 messages
+AWS Notifications <no-reply@sns.amazonaws.com>  Tue, Dec 19, 2017 at 5:55 PM
+To: olga.mirensky@atyourcompany.com
+{
+  "Type" : "Notification",
+  "MessageId" : "7d23148d-720f-5cf8-8cf6-463fcb2b322f",
+  "TopicArn" : "arn:aws:sns:us-west-2:888888884444:he-data-queue",
+  "Message" : "[{\"eventName\":\"something-happened\",\"originator\":\"121212aceace:8080\",\"tenant\":\"somebody\",\"versions\":[\"1.0\"],\"timestamp\":\"2017-12-19T06:55:31.895Z\",\"guid\":\"i1234567890-1234567890-1234567890\",\"a_id\":15939,\"properties\":{},\"metadata\":{}}]",
+  "Timestamp" : "2017-12-19T06:55:32.540Z",
+  "SignatureVersion" : "1",
+  "Signature" : "aG0sIGN1cmlvcz8gdGhhdCdzIG9uZSBzb25nIHRoYXQgSSBsaWtlIFNhaS4uLg0KY2VydGUgdm9sdGUgYWNjYWRlIGNoZQ0KY2kgc2lhIGJpc29nbm8gZGkgYW5kYXIgdmlhDQplIGxhc2NpYXJlIHR1dHRvIGFsIGZhdG8sDQpGYXJlIGNvbWUgdW4gZXF1aWxpYnJpc3RhLA0KY2hlIHN1bCBtb25kbw0Kc2ZpZGEgaWwgY3JvbGxvIGRlbGxlIHN1ZSBjYXBhY2l0w6A=",
+  "SigningCertURL" : "https://sns.us-west-2.amazonaws.com/SimpleNotificationService-1223334444d0001111111aaaaaeee536.pem",
+  "UnsubscribeURL" : "https://sns.us-west-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-west-2:888888884444:v-data-queue:2c2b49a8-a0d7-4f3f-bb7f-659b3d10239a"
+}
+AWS Notifications <no-reply@sns.amazonaws.com>  Tue, Dec 19, 2017 at 5:55 PM
+To: olga.mirensky@atyourcompany.com
+{
+  "Type" : "Notification",
+  "MessageId" : "5ace2ebb-8ebe-55f2-ba31-750b34962425",
+  "TopicArn" : "arn:aws:sns:us-west-2:888888884444:he-data-queue",
+  "Message" : "[{\"eventName\":\"something-happened\",\"originator\":\"121212aceace:8080\",\"tenant\":\"same-somebody\",\"versions\":[\"1.0\"],\"timestamp\":\"2017-12-19T06:55:30.826Z\",\"guid\":\"1234567890-1234567890-1234567890\",\"u_id\":12339,\"properties\":{},\"metadata\":{\"title\":{\"en_US\":\"Episode 8\"},\"production-year\":{\"*\":\"2012\"},\"genre\":{\"*\":\"Kids\"},\"episode\":{\"*\":\"8\"},\"studio\":{\"*\":\"Name\"},\"series-name\":{\"en_US\":\"Run Forrest, Run!\"},\"sub-genre\":{\"*\":\"Animation\"}}},{\"eventName\":\"and-something-else\",\"originator\":\"888888883441:8080\",\"tenant\":\"somebody\",\"versions\":[\"1.0\"],\"timestamp\":\"2017-12-19T06:55:30.433Z\",\"guid\":\"1234567890-1234567890-1234567890\",\"a_id\":11159,\"properties\":{},\"metadata\":{}}]",
+  "Timestamp" : "2017-12-19T06:55:36.550Z",
+  "SignatureVersion" : "1",
+  "Signature" : "aG0sIGN1cmlvcz8gdGhhdCdzIG9uZSBzb25nIHRoYXQgSSBsaWtlIFNhaS4uLg0KY2VydGUgdm9sdGUgYWNjYWRlIGNoZQ0KY2kgc2lhIGJpc29nbm8gZGkgYW5kYXIgdmlhDQplIGxhc2NpYXJlIHR1dHRvIGFsIGZhdG8sDQpGYXJlIGNvbWUgdW4gZXF1aWxpYnJpc3RhLA0KY2hlIHN1bCBtb25kbw0Kc2ZpZGEgaWwgY3JvbGxvIGRlbGxlIHN1ZSBjYXBhY2l0w6A=",
+[Quoted text hidden]
+AWS Notifications <no-reply@sns.amazonaws.com>  Tue, Dec 19, 2017 at 5:55 PM
+To: olga.mirensky@atyourcompany.com
+{
+  "Type" : "Notification",
+  "MessageId" : "70676be4-b50e-5e37-b38b-3956082407e0",
+  "TopicArn" : "arn:aws:sns:us-west-2:888888884444:he-data-queue",
+  "Timestamp" : "2017-12-19T06:55:38.539Z",
+  "SignatureVersion" : "1",
+  "Signature" : "aG0sIGN1cmlvcz8gdGhhdCdzIG9uZSBzb25nIHRoYXQgSSBsaWtlIFNhaS4uLg0KY2VydGUgdm9sdGUgYWNjYWRlIGNoZQ0KY2kgc2lhIGJpc29nbm8gZGkgYW5kYXIgdmlhDQplIGxhc2NpYXJlIHR1dHRvIGFsIGZhdG8sDQpGYXJlIGNvbWUgdW4gZXF1aWxpYnJpc3RhLA0KY2hlIHN1bCBtb25kbw0Kc2ZpZGEgaWwgY3JvbGxvIGRlbGxlIHN1ZSBjYXBhY2l0w6A=",
+[Quoted text hidden]
