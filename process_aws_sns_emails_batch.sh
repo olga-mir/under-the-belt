@@ -10,12 +10,6 @@ INPUT_DIR=$1
 OUTPUT_DIR=${2-outputSamples}
 JSON_OUTPUT_FORMAT=${3-p} # 'p'/'c' final message is validated with `jq`always and is saved in 'p'retty or 'c'ompact or not saved otherwise
 
-keep_artifacts=0 # 1
-artifacts_dir=$OUTPUT_DIR/../artifacts
-if [ $keep_artifacts -eq 1 ]; then
-  mkdir -p $artifacts_dir
-fi
-
 [[ -d $INPUT_DIR ]] || { echo "First argument must be a directory with input batch files" >&2; exit 1; }
 mkdir -p $OUTPUT_DIR
 
@@ -41,13 +35,11 @@ main() {
   unsuccessful=`ls -1 $UNSUCCESSFUL_FILES_DIR | wc -l`
   echo DONE. Processed $global_counter files, with $unsuccessful errors
   echo Results are stored in $OUTPUT_DIR, unsuccessful files are saved in $UNSUCCESSFUL_FILES_DIR
-  [ $keep_artifacts -eq 1 ] && echo Artifacts saved in $artifacts_dir || :
 }
 
 process_single_batch() {
   input_batch_file=$1
-  step1_temp_file=$artifacts_dir/$(basename $input_batch_file)
-  echo step1_temp_file $step1_temp_file
+  step1_temp_file="step1_temp_file.txt"
 
   # pass1 - easy to get rid of redundant lines with sed
   echo processing: $input_batch_file
@@ -77,7 +69,7 @@ process_single_batch() {
       echo $line >> $file
     fi
   done < $step1_temp_file
-  [ $keep_artifacts -ne 1 ] && rm $step1_temp_file || :
+  rm $step1_temp_file
 }
 
 format_json_file() {
